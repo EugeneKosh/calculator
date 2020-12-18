@@ -1,0 +1,19 @@
+.calculator__header {
+  height: 5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.calculator__input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  border: 2px solid #11cfff;
+  font-size: 2.4rem;
+  color: #0481d2;
+}
+.input__operation {
+  height: 2rem;
+}

@@ -1,0 +1,27 @@
+.calculator__main {
+  padding: 1rem;
+}
+.number-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: .5rem;
+}
+.button {
+  height: 6rem;
+  border: 1px solid #11cfff;
+  box-sizing: border-box;
+  font-size: 2rem;
+  color: #11cfff;
+  outline: none;
+  transition: all 0.2s;
+
+
+  &:hover {
+    border-color: #0481d2;
+    color: #0481d2;
+  }
+}
+.double-button {
+  grid-column: span 2;
+}
